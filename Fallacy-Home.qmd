@@ -1,0 +1,8 @@
+---
+title: "Fallacy-Home"
+author: "Professor Hunt"
+---
+
+# This is your landing page for Fallacies
+
+Use the navigation on left to go to the fallacy module you seek.

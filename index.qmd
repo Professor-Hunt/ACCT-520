@@ -2,10 +2,12 @@
 title: "ACCT 520"
 ---
 
-This is a Quarto website.
+# Accounting Analytics for Managers
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This course will attempt to focus on data fallacies. A data fallacy is defined as an error used to draw insights from data. Data fallacies and logical fallacies are intimately related and often one in the same. I purposefully defined it as a error because for this class it does not matter if the error is made intentionally or out of ignorance. The result is the same...the insight generated needs to be investigated further. Errors do not always lead to incorrect conclusions, but it is better to be sure, than to be lucky. Luck can run out.
 
-```{r}
-1 + 1
-```
+Unfortunately we cannot discuss data fallacies without understanding the stages in a data science project. The course will be organized by these stages and within each stage we will talk about each stage, do labs, and projects related to that stage. I will attempt to include the most common fallacies associated within each stage, but these fallacies can span multiple stages.. This is not a exhaustive dive into all fallacies, but it should make you aware of the most common data errors and logical errors associated with data anlytics.
+
+# Stages of a Data Analytics Project
+
+[![[CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)](images/CRISP-DM.png){fig-align="center" width="100%"}](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)

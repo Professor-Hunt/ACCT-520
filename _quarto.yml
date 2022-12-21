@@ -4,13 +4,13 @@ project:
 website:
   title: "ACCT 520"
   navbar:
-    background: primary
+    background: dark
     search: true
     left:
       - text: "Home"
         file: index.qmd
       - text: "Fallacies"
-        #file: tutorials.qmd
+        file: Fallacy-Home.qmd
       - text: "Labs"
         #file: howto.qmd
       - text: "Course Projects"
@@ -22,9 +22,9 @@ website:
     - title: "Fallacies"
       style: "docked"
       background: dark
-      #contents:
-        #- tutorials.qmd
-        #- tutorial-1.qmd
+      contents:
+        - Fallacy-Home.qmd
+        - Fallacy-Introduction.qmd
         #- tutorial-2.qmd
 
     - title: "How-To"
@@ -44,7 +44,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: superhero
     css: styles.css
     toc: true
 

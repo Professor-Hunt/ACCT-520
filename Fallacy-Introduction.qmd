@@ -1,0 +1,6 @@
+---
+title: "Introduction"
+author: "Professor Hunt"
+---
+
+# What are data fallacies?
