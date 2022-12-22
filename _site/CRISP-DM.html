@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Professor Hunt">
 
-<title>ACCT 520</title>
+<title>ACCT 520 - Data Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -80,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./CRISP-DM.html">
- <span class="menu-text">Data Analytics</span></a>
+    <a class="nav-link active" href="./CRISP-DM.html" aria-current="page">
+ <span class="menu-text">CRISP-DM</span></a>
   </li>  
   <li class="dropdown-header">
  <span class="menu-text">Labs</span></li>
@@ -98,19 +99,42 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Data Analytics</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./CRISP-DM.html" class="sidebar-item-text sidebar-link active">Data Analytics</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Fallacy-Introduction.html" class="sidebar-item-text sidebar-link">Introduction</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#accounting-analytics-for-managers" id="toc-accounting-analytics-for-managers" class="nav-link active" data-scroll-target="#accounting-analytics-for-managers">Accounting Analytics for Managers</a></li>
-  <li><a href="#stages-of-a-data-analytics-project" id="toc-stages-of-a-data-analytics-project" class="nav-link" data-scroll-target="#stages-of-a-data-analytics-project">Stages of a Data Analytics Project</a></li>
-  <li><a href="#crisp-dm" id="toc-crisp-dm" class="nav-link" data-scroll-target="#crisp-dm">CRISP-DM</a></li>
+  <li><a href="#crisp-dm" id="toc-crisp-dm" class="nav-link active" data-scroll-target="#crisp-dm">CRISP-DM</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -119,13 +143,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ACCT 520</h1>
+<h1 class="title d-none d-lg-block">Data Analytics</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Professor Hunt </p>
+          </div>
+  </div>
     
   
     
@@ -134,23 +164,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="accounting-analytics-for-managers" class="level1">
-<h1>Accounting Analytics for Managers</h1>
-<p>This course will attempt to focus on data fallacies. A data fallacy is defined as an error used to draw insights from data. Data fallacies and logical fallacies are intimately related and often one in the same. I purposefully defined it as a error because for this class it does not matter if the error is made intentionally or out of ignorance. The result is the same…the insight generated needs to be investigated further. Errors do not always lead to incorrect conclusions, but it is better to be sure, than to be lucky. Luck can run out.</p>
-<p>Unfortunately we cannot discuss data fallacies without understanding the stages in a data science project. The course will be organized by these stages and within each stage we will talk about each stage, do labs, and projects related to that stage. I will attempt to include the most common fallacies associated within each stage, but these fallacies can span multiple stages.. This is not a exhaustive dive into all fallacies, but it should make you aware of the most common data errors and logical errors associated with data analytics.</p>
-</section>
-<section id="stages-of-a-data-analytics-project" class="level1">
-<h1>Stages of a Data Analytics Project</h1>
+<section id="crisp-dm" class="level2">
+<h2 class="anchored" data-anchor-id="crisp-dm">CRISP-DM</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/CRISP-DM.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<p></p><figcaption class="figure-caption">CRISP-DM</figcaption><p></p>
+<p><a href="https://web.archive.org/web/20220401041957/https://www.the-modeling-agency.com/crisp-dm.pdf"><img src="images/CRISP-DM2.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Phases of the CRISP-DM reference model</figcaption><p></p>
 </figure>
 </div>
-</section>
-<section id="crisp-dm" class="level1">
-<h1>CRISP-DM</h1>
-<p>The <strong>CR</strong>oss <strong>I</strong>ndustry <strong>S</strong>tandard <strong>P</strong>rocess for <strong>D</strong>ata <strong>M</strong>ining (<a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining"><em>CRISP-DM</em></a>) is a process model that serves as the base for a data science project. This is not the only characterization of the data science process, but most are very similar.</p>
+<p>The <strong>CR</strong>oss <strong>I</strong>ndustry <strong>S</strong>tandard <strong>P</strong>rocess for <strong>D</strong>ata <strong>M</strong>ining (<a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining"><em>CRISP-DM</em></a>) is a process model that serves as the base for a data science project. The process is iterative. Almost never do you get everything right the first time. As you work through the business understanding process and move to the data understanding process you may find that you cannot find the data you need and you may have to reformulate your question. The other side of the coin can also be true, perhaps you have access to better data than expected and you can answer more detailed questions etc. The process may go back and forth many times. The same is true for the analysis/modeling phase. There can be more than one and often many analysis/modeling techniques that can answer your questions. Each technique may require different data preparation. The model may or may not perform well or accomplish the business object and that would require us to start the process over. If the model accomplishes the business objective, then it is time to deploy it.</p>
 <ol type="1">
 <li><p>Business Understanding</p></li>
 <li><p>Data Understanding</p></li>
@@ -159,7 +181,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Evaluation</p></li>
 <li><p>Deployment</p></li>
 </ol>
-<p>Within the CRISP-DM structure there are areas that data fallacies will be more prevalent. Phases 2-5 are the data intensive parts and thus are subject to data fallacies. We will briefly discuss 1 and 6, which are arguably the most important phases. But this course will focus on common data fallacies, some logical fallacies, and some cognitive biases. The hope is that you will understand the basics of a data analytics project and that you will be able to recognize problems within a project. Ignorance is never an acceptable excuse, but we do not know what we do not know.</p>
+</section>
+<section id="section" class="level1">
+<h1></h1>
 
 
 </section>

@@ -9,8 +9,8 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Fallacies"
-        file: Fallacy-Home.qmd
+      - text: "Data Analytics"
+        file: CRISP-DM.qmd
       - text: "Labs"
         #file: howto.qmd
       - text: "Course Projects"
@@ -19,11 +19,11 @@ website:
         #file: reference.qmd
 
   sidebar:
-    - title: "Fallacies"
+    - title: "Data Analytics"
       style: "docked"
       background: dark
       contents:
-        - Fallacy-Home.qmd
+        - CRISP-DM.qmd
         - Fallacy-Introduction.qmd
         #- tutorial-2.qmd
 

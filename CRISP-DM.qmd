@@ -1,0 +1,24 @@
+---
+title: "Data Analytics"
+author: "Professor Hunt"
+---
+
+## CRISP-DM
+
+[![Phases of the CRISP-DM reference model](images/CRISP-DM2.png)](https://web.archive.org/web/20220401041957/https://www.the-modeling-agency.com/crisp-dm.pdf)
+
+The **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining ([*CRISP-DM*](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)) is a process model that serves as the base for a data science project. The process is iterative. Almost never do you get everything right the first time. As you work through the business understanding process and move to the data understanding process you may find that you cannot find the data you need and you may have to reformulate your question. The other side of the coin can also be true, perhaps you have access to better data than expected and you can answer more detailed questions etc. The process may go back and forth many times. The same is true for the analysis/modeling phase. There can be more than one and often many analysis/modeling techniques that can answer your questions. Each technique may require different data preparation. The model may or may not perform well or accomplish the business object and that would require us to start the process over. If the model accomplishes the business objective, then it is time to deploy it.
+
+1.  Business Understanding
+
+2.  Data Understanding
+
+3.  Data Preparation
+
+4.  Modeling
+
+5.  Evaluation
+
+6.  Deployment
+
+# 
