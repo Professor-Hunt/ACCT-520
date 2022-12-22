@@ -24,7 +24,7 @@ website:
       background: dark
       contents:
         - CRISP-DM.qmd
-        - Fallacy-Introduction.qmd
+        - Business-Understanding.qmd
         #- tutorial-2.qmd
 
     - title: "How-To"
