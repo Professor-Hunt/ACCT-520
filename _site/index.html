@@ -108,7 +108,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#accounting-analytics-for-managers" id="toc-accounting-analytics-for-managers" class="nav-link active" data-scroll-target="#accounting-analytics-for-managers">Accounting Analytics for Managers</a></li>
+  <li><a href="#accounting-analytics-for-managers" id="toc-accounting-analytics-for-managers" class="nav-link active" data-scroll-target="#accounting-analytics-for-managers">Accounting Analytics for Managers</a>
+  <ul class="collapse">
+  <li><a href="#data-fallacy-triangle" id="toc-data-fallacy-triangle" class="nav-link" data-scroll-target="#data-fallacy-triangle">Data Fallacy Triangle</a></li>
+  </ul></li>
   <li><a href="#stages-of-a-data-analytics-project" id="toc-stages-of-a-data-analytics-project" class="nav-link" data-scroll-target="#stages-of-a-data-analytics-project">Stages of a Data Analytics Project</a></li>
   <li><a href="#crisp-dm" id="toc-crisp-dm" class="nav-link" data-scroll-target="#crisp-dm">CRISP-DM</a></li>
   </ul>
@@ -136,8 +139,18 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="accounting-analytics-for-managers" class="level1">
 <h1>Accounting Analytics for Managers</h1>
-<p>This course will attempt to focus on data fallacies. A data fallacy is defined as an error used to draw insights from data. Data fallacies and logical fallacies are intimately related and often one in the same. I purposefully defined it as a error because for this class it does not matter if the error is made intentionally or out of ignorance. The result is the same…the insight generated needs to be investigated further. Errors do not always lead to incorrect conclusions, but it is better to be sure, than to be lucky. Luck can run out.</p>
-<p>Unfortunately we cannot discuss data fallacies without understanding the stages in a data science project. The course will be organized by these stages and within each stage we will talk about each stage, do labs, and projects related to that stage. I will attempt to include the most common fallacies associated within each stage, but these fallacies can span multiple stages.. This is not a exhaustive dive into all fallacies, but it should make you aware of the most common data errors and logical errors associated with data analytics.</p>
+<p>This course will attempt to focus on data fallacies. A data fallacy is defined as data used incorrectly to draw insights. Data fallacies and logical fallacies are intimately related and often one in the same.</p>
+<section id="data-fallacy-triangle" class="level2">
+<h2 class="anchored" data-anchor-id="data-fallacy-triangle">Data Fallacy Triangle</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Data-fallacy-triangle.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<p></p><figcaption class="figure-caption">Data Fallacy Sources</figcaption><p></p>
+</figure>
+</div>
+<p>Data fallacies are the result of ignorance, error, or fraud. Fraud is the easiest to ascribe after it is discovered. Accountants often refer to the <a href="https://en.wikipedia.org/wiki/Fraud_deterrence">fraud triangle</a>: Opportunity, Incentive, and Rationalization. Ignorance and error are harder to nail down, but we will discuss all three possibilities. Fraud is perhaps the worst source of a data fallacy followed close behind by ignorance. The least egregious is error and hopefully it is the most common source of data fallacies, but I am not so sure these days. Considering the source of a data fallacy is important, but spotting the fallacy is more important. Of the three sources fraud and ignorance might cause you to be more skeptical of data that is presented if you can pick up on either of these. Unfortunately data outputs are often reports or dashboards or models and you may not be able to interact directly with the data analyst that created the output. Errors would be impossible to glean from speaking with the analyst because by definition the analyst does not know a mistake was made.Incorrect data analyses do not always lead to incorrect conclusions, but it is better to be sure than to be lucky. Luck can run out.</p>
+<p>We cannot discuss data fallacies without understanding the stages in a data science project. The course will be organized by these stages and within each stage we will talk about each stage, do labs, and projects related to that stage. I will attempt to include the most common fallacies associated within each stage, but these fallacies can span multiple stages.. This is not a exhaustive dive into all fallacies, but it should make you aware of the most common data errors and logical errors associated with data analytics.</p>
+</section>
 </section>
 <section id="stages-of-a-data-analytics-project" class="level1">
 <h1>Stages of a Data Analytics Project</h1>
